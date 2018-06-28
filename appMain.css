@@ -1,0 +1,189 @@
+body{
+	background: url(https://images.pexels.com/photos/297755/pexels-photo-297755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-position: center;
+}
+
+body,
+html{
+	font-family: "Lato";
+	color: #cb0e0e;
+	height: 100%;
+	width: 100%;
+}
+
+#description{
+	font-family: "Lato";
+	font-size: 1.5em;
+	color: black;
+	text-align: left;
+}
+#content{
+	text-align: center;
+	padding-top: 8%;
+	text-shadow: 0px 4px 9px white,
+				 0px 5px 14px white,
+				 0px 7px 20px white;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+
+h3{
+	font-size: 2em;
+}
+
+#enjoy{
+	 text-align: right;
+	padding-right: 120px;
+	padding-bottom: 6px;
+ }
+
+#gilad{
+	text-align: right;
+}
+
+
+img{
+  position: relative;
+  top: -16px;
+  right: -706px;
+  z-index: 3;
+  border : none;
+  max-width: 200px;
+  max-height: 150px;
+  
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f0f0f0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type=checkbox]{
+	margin-left: 5px;
+
+}
+.content2{
+	text-align: center;
+	text-shadow: 0px 4px 9px white,
+			 0px 5px 14px white,
+			 0px 7px 20px white;
+}
+
+.questions{
+	padding-top: 2%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-bottom: 5%;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.9);
+
+}
+
+.month{
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+#button_holder{
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+#details{
+	color: black;
+}
+
+#list{
+	padding-top: 2%;
+	padding-bottom: 4%;
+	margin: 0 0 3px 0;
+}
+
+.option{
+	margin: 10px 0 10px 0;
+	text-align: center;
+	font-family: "Lato";
+	font-size: 1.2em;
+	
+}
+
+.right_label{
+	text-align: right;
+}
+
+.left_label{
+	text-align: left;
+}
+
+.top_label{
+	margin-top: 3%;
+}
+
+.category{
+	font-size: 1em;
+	text-align:left;
+ 	padding-left: 10%;
+}
+
+.month_option{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::::-webkit-slider-runnable-track {
+      height: 10px;
+      -webkit-appearance: none;
+      color: #13bba4;
+      margin-top: -1px;
+    }
+.slider::-webkit-fill-lower { 
+    background: red;
+}
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+

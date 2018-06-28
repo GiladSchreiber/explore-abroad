@@ -1,0 +1,226 @@
+body{
+    background: url(https://images.pexels.com/photos/297755/pexels-photo-297755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center;
+}
+
+body,
+html{
+	font-family: "Lato";
+	color: #cb0e0e;
+	height: 100%;
+	width: 100%;
+}
+
+#content{
+	text-align: center;
+	padding-top: 8%;
+	text-shadow: 0px 4px 9px white,
+				 0px 5px 14px white,
+				 0px 7px 20px white;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+.header_conteiner{
+	background: rgba(255, 255, 255, 0.95);
+
+	width:94%;
+    height: 10%;
+	margin: 0 auto 0;
+}
+
+.map_button {
+    border: 2px solid #ddb3b3;
+    margin-left: 100px;
+    /*margin: 0 auto;*/
+    width: 150px;
+
+}
+
+#general{
+    border: 2px solid #ddb3b3;
+}
+
+#nature{
+    border: 2px solid #ddb3b3;
+}
+
+#culture{
+    border: 2px solid #ddb3b3;
+}
+
+#luxery{
+    border: 2px solid #ddb3b3;
+}
+
+#map_header{
+	margin-top: 10px;
+	font-weight: 700;
+	font-size: 2em;
+	color: #cb0e0e;
+	text-align: center;
+	letter-spacing: 1px;
+	text-shadow: 0px 1px 2px black,
+	0px 3px 6px black;
+}
+#plot{
+    background: rgba(255, 255, 255, 0.7);
+	width:94%;
+	height:70%;
+	margin: 0 auto;
+}
+h3{
+	font-size: 1.8em;
+}
+
+
+img{
+  position: relative;
+  top: -16px;
+  right: -706px;
+  z-index: 3;
+  border : none;
+  max-width: 20px;
+  max-height: 10px;
+  
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f0f0f0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type=checkbox]{
+	margin-left: 5px;
+
+}
+.content2{
+	text-align: center;
+	text-shadow: 0px 4px 9px white,
+			 0px 5px 14px white,
+			 0px 7px 20px white;
+}
+
+.questions{
+	padding-top: 1%;
+	padding-left: 4%;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.9);
+
+}
+
+.month{
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+#button_holder{
+	text-align: center;
+    padding-bottom: 2%;
+}
+
+#details{
+	color: black;
+}
+
+#left_btn{
+	float: right;
+    border: 2px solid #ddb3b3;
+    margin-left: 20px;
+	margin-top: 10px;
+}
+
+#right_btn{
+	float: left;
+    border: 2px solid #ddb3b3;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.option{
+	margin: 10px 0 10px 0;
+	text-align: center;
+	font-family: "Lato";
+	font-size: 1.2em;
+	
+}
+
+.right_label{
+	text-align: right;
+}
+
+.left_label{
+	text-align: left;
+}
+
+.top_label{
+	margin-top: 3%;
+}
+
+.category{
+	font-size: 1em;
+	text-align:left;
+ 	padding-left: 10%;
+}
+
+.month_option{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-runnable-track {
+      height: 10px;
+      -webkit-appearance: none;
+      color: #13bba4;
+      margin-top: -1px;
+    }
+.slider::-webkit-fill-lower { 
+    background: red;
+}
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+

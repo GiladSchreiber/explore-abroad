@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ExploreAbroad</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="appMain.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="node_modules/linear-algebra/dist/linear-algebra.js"></script>
+    <script src="node_modules/numericjs/numeric-1.2.6.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Explore Abroad</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="final_web.html">Home</a></li>
+        <li class="active"><a href="final_web_About.html">About</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+	<div class="container" id="content2">
+		<div class="row top_label">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-8">
+				<div class="questions">
+					<h3><i class="fas fa-pencil-alt"></i> About This Project</h3>
+					<hr>
+					<div id="description">
+						The world is too big, and still we go back to the same familiar places over and over again.
+						This project is trying to discover new destinations by the places that we are familiar with.
+						<ul id="list">
+							<li>The data was collected from TripAdvisor website.</li>
+							<li>Each destination is defined by the top attractions suggested by TripAdvisor.</li>
+							<li>Using PCA and T-sne the data is presented on two axis.</li>
+							<li>Each country is represented as an image, which is one of top Google searching results for "country name + travel" 
+						</ul>
+						<div id="enjoy">Enjoy!</div>
+						<div id="gilad">Gilad Schreiber</div>
+					</div>
+					<!-- <script type="text/javascript" src="final.js"></script> -->
+				</div>
+			</div>
+			<div class="col-lg-2"></div>
+		</div>
+	</div>
+	<!-- <div id="myDiv">Plotly chart will be drawn inside this DIV</div> -->
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
